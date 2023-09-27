@@ -1,3 +1,5 @@
 function hidePoints() {
-    console.log("hide control points");
+    console.log("clicked");
+    isPointsHiden = this.checked();
+    isWaitAddPoint = false;
 }

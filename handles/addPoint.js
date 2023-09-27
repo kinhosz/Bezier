@@ -1,3 +1,5 @@
 function addPoint() {
-    console.log("add point");
+    if(currentCurve != -1) {
+        isWaitAddPoint = true;
+    }
 }

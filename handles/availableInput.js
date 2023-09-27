@@ -1,3 +1,6 @@
 function availableInput() {
-    console.log('you type:', this.value());
+    if(!isNaN(this.value())) {
+        availables = max(this.value(), 2);
+        console.log(availables);
+    }
 }

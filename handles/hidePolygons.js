@@ -1,3 +1,3 @@
 function hidePolygons() {
-    console.log("hide control points");
+    isPolygonsHiden = this.checked();
 }

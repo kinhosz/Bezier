@@ -1,3 +1,8 @@
 function delPoint() {
-    console.log("del point");
+    if(currentPointOnCurve != -1) {
+        bezierCurves[currentCurve].splice(currentPointOnCurve, 1);
+        currentPointOnCurve = -1;
+    }
+
+    isWaitAddPoint = false;
 }

@@ -1,6 +1,10 @@
 function Board(parent) {
     var board = createDiv();
-    board.child(createCanvas(1200, 600));
+
+    var canva = createCanvas(1200, 600);
+    canva.mousePressed(canvaClicked);
+
+    board.child(canva);
     parent.child(board);
 
     board.style('margin-left', 'auto');
