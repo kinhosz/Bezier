@@ -10,7 +10,7 @@ function lines() {
                     stroke("blue");
                 }
 
-                strokeWeight(5);
+                strokeWeight(3);
 
                 line(bezierCurves[i][j-1].x, bezierCurves[i][j-1].y, bezierCurves[i][j].x, bezierCurves[i][j].y);
             }

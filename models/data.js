@@ -14,3 +14,5 @@ var isCurvesHiden = false;
 var currentPointOnCurve = -1;
 
 var isWaitAddPoint = false;
+
+var isMoving = false;

@@ -3,4 +3,6 @@ function addNewPointOnCurve(x, y) {
         x: x,
         y: y
     })
+
+    isWaitAddPoint = false;
 }
