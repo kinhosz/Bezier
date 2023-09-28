@@ -13,4 +13,5 @@ function deleteBezier() {
     }
 
     isWaitAddPoint = false;
+    isMovePoint = false;
 }

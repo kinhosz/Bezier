@@ -5,4 +5,5 @@ function nextBezier() {
         currentCurve %= bezierCurves.length;
     }
     isWaitAddPoint = false;
+    isMovePoint = false;
 }

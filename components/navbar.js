@@ -5,6 +5,7 @@ function Navbar(parent) {
     navbar.child(Button("Delete", deleteBezier));
     navbar.child(Button("Next", nextBezier));
     navbar.child(Button("Add Point", addPoint));
+    navbar.child(Button("move Point", movePoint));
     navbar.child(Button("del Point", delPoint));
     navbar.child(TextInput("Availables:", availableInput));
 

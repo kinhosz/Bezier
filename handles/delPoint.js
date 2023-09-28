@@ -5,4 +5,5 @@ function delPoint() {
     }
 
     isWaitAddPoint = false;
+    isMovePoint = false;
 }

@@ -15,4 +15,4 @@ var currentPointOnCurve = -1;
 
 var isWaitAddPoint = false;
 
-var isMoving = false;
+var isMovePoint = false;
